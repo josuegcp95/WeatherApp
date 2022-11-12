@@ -2,7 +2,7 @@
 
 import Foundation
 
-//MARK: - MAIN MODELS
+//MARK: MAIN MODELS
 struct APIResponse: Codable {
     var current: APICurrent
     var hourly: [APIHourly]
@@ -15,8 +15,7 @@ struct APIResponse: Codable {
         
     }
 }
-
-//MARK: - CURRENT WEATHER MODELS
+//MARK: CURRENT WEATHER MODELS
 struct APICurrent: Codable {
     var weather: [APICurrentWeather]
     var temp: Double
@@ -36,8 +35,7 @@ struct APICurrentWeather: Codable {
         case icon
     }
 }
-
-//MARK: - HOURLY WEATHER MODELS
+//MARK: HOURLY WEATHER MODELS
 struct APIHourly: Codable {
     var date: Int
     var weather: [APIHourlyWeather]
@@ -57,8 +55,7 @@ struct APIHourlyWeather: Codable {
         case icon
     }
 }
-
-//MARK: - DAILY WEATHER MODELS
+//MARK: DAILY WEATHER MODELS
 struct APIDaily: Codable {
     var date: Int
     var weather: [APIDailyWeather]
