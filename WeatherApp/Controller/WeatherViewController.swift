@@ -41,6 +41,7 @@ class WeatherViewController: UIViewController {
             LocationService.shared.customUserLocationDelegate = self
         } else {
             LocationService.shared.locationManager.requestWhenInUseAuthorization()
+            LocationService.shared.customUserLocationDelegate = self
         }
     }
     

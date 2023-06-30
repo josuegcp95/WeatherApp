@@ -3,7 +3,7 @@
 import Foundation
 import CoreLocation
 
-protocol CustomUserLocationDelegate {
+protocol CustomUserLocationDelegate: AnyObject {
     func userLocationUpdated(location: CLLocation)
 }
 
@@ -11,7 +11,7 @@ class LocationService: NSObject, CLLocationManagerDelegate {
     static let shared = LocationService()
     var locationManager = CLLocationManager()
     var exposedLocation: CLLocation?
-    var customUserLocationDelegate: CustomUserLocationDelegate?
+    weak var customUserLocationDelegate: CustomUserLocationDelegate?
     
     override init() {
         super.init()

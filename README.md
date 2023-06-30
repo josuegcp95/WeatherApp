@@ -6,9 +6,9 @@
 
 ## Description
 - This is a weather iOS application
-- Asks user for permission to track their location to provide local weather information 
-- Shows weather hourly for the next 5 hours
-- Shows weather daily for the next 5 days
+- Ask user for permission to track their location to provide local weather information 
+- Show hourly weather for the next 5 hours
+- Shows daily weather for the next 5 days
 - UI with Storyboard
 - MVC Design Pattern
 
@@ -19,7 +19,7 @@
 
 ## What I've Learned:
 - How to make network calls
-- How to convert JSON into Swift Models
+- How to parse JSON into Swift Models
 - How to work with collection views
 
 ---
