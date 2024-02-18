@@ -1,9 +1,8 @@
 # WeatherApp
 
 ## Screenshots
-![weatherapp(1)](https://github.com/josuegcp95/WeatherApp/assets/82785695/9f84a9ac-2306-4f8c-ac8f-43bf01cd2ea3)
-![weatherapp(2)](https://github.com/josuegcp95/WeatherApp/assets/82785695/5dea168b-c54f-4179-9740-5af69bc61012)
-
+![WeatherApp(1)](https://github.com/josuegcp95/WeatherApp/assets/82785695/a1ffbbbc-3ba7-4d2a-886a-e5c9f4f52e9e)
+![WeatherApp(2)](https://github.com/josuegcp95/WeatherApp/assets/82785695/c3916ea5-8b66-41d2-b38b-e55c99f0e0da)
 
 ## Description
 - This is a weather iOS application
