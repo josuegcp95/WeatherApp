@@ -8,6 +8,7 @@ protocol CustomUserLocationDelegate: AnyObject {
 }
 
 class LocationService: NSObject, CLLocationManagerDelegate {
+    
     static let shared = LocationService()
     var locationManager = CLLocationManager()
     var exposedLocation: CLLocation?

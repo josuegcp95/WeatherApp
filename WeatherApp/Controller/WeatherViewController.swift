@@ -4,6 +4,7 @@ import UIKit
 import CoreLocation
 
 class WeatherViewController: UIViewController {
+    
     @IBOutlet weak var weatherCollectionView: UICollectionView!
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!

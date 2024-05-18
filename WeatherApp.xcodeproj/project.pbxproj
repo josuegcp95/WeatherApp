@@ -72,14 +72,14 @@
 			children = (
 				334A11DD280F5C6300A4C8AA /* AppDelegate.swift */,
 				334A11DF280F5C6300A4C8AA /* SceneDelegate.swift */,
-				334A11F3280F5D2500A4C8AA /* Model */,
-				334A11F2280F5D1C00A4C8AA /* View */,
-				334A11F1280F5D1100A4C8AA /* Controller */,
-				33B630592815CC8A00C739F1 /* Services */,
 				334A11E3280F5C6300A4C8AA /* Main.storyboard */,
 				334A11E8280F5C6500A4C8AA /* LaunchScreen.storyboard */,
 				334A11E6280F5C6500A4C8AA /* Assets.xcassets */,
 				334A11EB280F5C6500A4C8AA /* Info.plist */,
+				334A11F3280F5D2500A4C8AA /* Model */,
+				334A11F2280F5D1C00A4C8AA /* View */,
+				334A11F1280F5D1100A4C8AA /* Controller */,
+				33B630592815CC8A00C739F1 /* Services */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -359,6 +359,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -391,6 +392,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
